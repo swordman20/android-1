@@ -89,10 +89,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author H!ral
+ * @author Mayank
  */
 @SuppressWarnings("deprecation")
 @SuppressLint("SimpleDateFormat")
+
 public class Common {
     /**
      * Preference file name
