@@ -94,6 +94,7 @@ import java.util.regex.Pattern;
 @SuppressWarnings("deprecation")
 @SuppressLint("SimpleDateFormat")
 
+
 public class Common {
     /**
      * Preference file name
