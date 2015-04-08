@@ -35,7 +35,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.common.utils.MainActivity"
+            android:name="com.common.utils.HomeActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -54,6 +54,21 @@
             </intent-filter>
         </service>
 
+        <activity
+            android:name="com.common.utils.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.utils.CodeSnippestHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.ClientGetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.ClientPostActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.common.example.ClientPostMultipartEntityActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.common.example.ValidationAct"
             android:screenOrientation="portrait" />
