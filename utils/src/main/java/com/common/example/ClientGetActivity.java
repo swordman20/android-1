@@ -76,7 +76,7 @@ public class ClientGetActivity extends Activity {
                         "                dialog.hide();\n" +
                         "                dialog.dismiss();\n" +
                         "            }\n" +
-                        "        }\n" +
+                        "        }\n \n" +
                         "        ongetcallcomplete.response(result);\n" +
                         "    }\n" +
                         "\n" +
