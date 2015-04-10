@@ -3,9 +3,9 @@ package com.common.example;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -14,7 +14,9 @@ import android.widget.VideoView;
 import com.common.utils.Common;
 import com.common.utils.R;
 
-import java.io.IOException;
+import java.io.File;
+
+import eu.janmuller.android.simplecropimage.CropImage;
 
 public class PickCaptureActivity extends Activity implements View.OnClickListener {
 
@@ -82,12 +84,13 @@ public class PickCaptureActivity extends Activity implements View.OnClickListene
                     vvVideo.setVisibility(View.GONE);
                     ivPreview.setVisibility(View.VISIBLE);
                     Uri uri = data.getData();
-                    try {
-                        Bitmap bm = MediaStore.Images.Media.getBitmap(this.getContentResolver(), uri);
-                        ivPreview.setImageBitmap(bm);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    Common.startCropImage(this, Common.getPath(this, uri), 105, 1, 1);
+//                    try {
+//                        Bitmap bm = MediaStore.Images.Media.getBitmap(this.getContentResolver(), uri);
+//                        ivPreview.setImageBitmap(bm);
+//                    } catch (IOException e) {
+//                        e.printStackTrace();
+//                    }
                     break;
                 case 104:
                     vvVideo.setVisibility(View.VISIBLE);
@@ -95,6 +98,15 @@ public class PickCaptureActivity extends Activity implements View.OnClickListene
                     Uri fileUri = data.getData();
                     vvVideo.setVideoPath(Common.getPath(PickCaptureActivity.this, fileUri));
                     vvVideo.start();
+                    break;
+                case 105:
+                    String path = data.getStringExtra(CropImage.IMAGE_PATH);
+                    File imgFile = new File(path);
+                    if (imgFile.exists()) {
+                        Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
+                        ivPreview.setImageBitmap(myBitmap);
+                    }
+                    break;
             }
         }
     }

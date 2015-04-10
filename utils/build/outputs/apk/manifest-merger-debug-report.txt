@@ -411,3 +411,15 @@ ADDED from AndroidManifest.xml:201:9
 		ADDED from AndroidManifest.xml:203:13
 	android:name
 		ADDED from AndroidManifest.xml:202:13
+activity#eu.janmuller.android.simplecropimage.CropImage
+ADDED from AndroidManifest.xml:205:9
+	android:name
+		ADDED from AndroidManifest.xml:205:19
+provider#com.common.utils.InternalStorageContentProvider
+ADDED from AndroidManifest.xml:207:9
+	android:exported
+		ADDED from AndroidManifest.xml:210:13
+	android:authorities
+		ADDED from AndroidManifest.xml:209:13
+	android:name
+		ADDED from AndroidManifest.xml:208:13

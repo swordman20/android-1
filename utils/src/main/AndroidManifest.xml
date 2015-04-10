@@ -201,6 +201,13 @@
         <activity
             android:name="com.common.example.DownloadActivity"
             android:label="@string/title_activity_download"></activity>
+
+        <activity android:name="eu.janmuller.android.simplecropimage.CropImage"/>
+
+        <provider
+            android:name=".InternalStorageContentProvider"
+            android:authorities="com.common.utils"
+            android:exported="true"/>
     </application>
 
 </manifest>

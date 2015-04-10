@@ -107,13 +107,12 @@ public class MainActivity extends Activity {
                 "Show toast",/* 39 */
                 "Prevent double click",/* 40 */
                 "Bluetooth/wifi ON OFF",/* 41 */
-                "Pick/capture image/video and preview",/* 42 */
+                "Pick/capture/preview image/video and crop image",/* 42 */
                 "Url validation & ripple effect",/* 43 */
                 "Contacts with email id & screenshot",/* 44 */
                 "Social integration",/* 45 */
                 "Pick color",/* 46 */
-                "Remote file size or download file",/* 47 */
-                "Material View"/* 48 */
+                "Remote file size or download file"/* 46 */
         };
 
         sdkFunctionalityList = (ListView) findViewById(R.id.Md_list_company);
@@ -306,9 +305,6 @@ public class MainActivity extends Activity {
                 break;
             case 47:
                 intent = new Intent(mContext, DownloadActivity.class);
-                break;
-            case 48:
-                intent = new Intent(mContext, MaterialView.class);
                 break;
         }
         if (intent != null)
