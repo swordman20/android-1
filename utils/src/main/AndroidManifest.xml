@@ -58,6 +58,11 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MaterialView"
+            android:screenOrientation="portrait" />
+
         <activity
             android:name=".CodeSnippestHomeActivity"
             android:screenOrientation="portrait" />

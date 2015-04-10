@@ -112,7 +112,8 @@ public class MainActivity extends Activity {
                 "Contacts with email id & screenshot",/* 44 */
                 "Social integration",/* 45 */
                 "Pick color",/* 46 */
-                "Remote file size or download file"/* 46 */
+                "Remote file size or download file",/* 47 */
+                "Material View"/* 48 */
         };
 
         sdkFunctionalityList = (ListView) findViewById(R.id.Md_list_company);
@@ -305,6 +306,9 @@ public class MainActivity extends Activity {
                 break;
             case 47:
                 intent = new Intent(mContext, DownloadActivity.class);
+                break;
+            case 48:
+                intent = new Intent(mContext, MaterialView.class);
                 break;
         }
         if (intent != null)
