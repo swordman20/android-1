@@ -88,6 +88,8 @@ import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import eu.janmuller.android.simplecropimage.CropImage;
+
 /**
  * @author Mayank
  */
@@ -1937,6 +1939,19 @@ public class Common {
                 });
         alert = alertDialogBuilder.create();
         alert.show();
+    }
+
+
+    public static void startCropImage(Context context, String path, int requestCode, int aspectX, int aspectY) {
+
+        Intent intent = new Intent(context, CropImage.class);
+        intent.putExtra(CropImage.IMAGE_PATH, path);
+        intent.putExtra(CropImage.SCALE, true);
+
+        intent.putExtra(CropImage.ASPECT_X, aspectX);
+        intent.putExtra(CropImage.ASPECT_Y, aspectY);
+
+        ((Activity)context).startActivityForResult(intent, requestCode);
     }
 }
 
