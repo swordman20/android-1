@@ -36,4 +36,4 @@
         android:layout_height="wrap_content"
         android:id="@+id/webView"
         android:layout_gravity="center_horizontal" />
-</LinearLayout><!-- From: file:/E:/f%20DRIVE/Examples/Uitlsmdots/android/utils/src/main/res/layout/activity_prevent_click.xml -->
+</LinearLayout><!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/layout/activity_prevent_click.xml -->
