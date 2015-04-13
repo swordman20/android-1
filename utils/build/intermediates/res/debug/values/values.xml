@@ -169,20 +169,20 @@
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">Utils Example</string>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/android/simplecropimagelib/unspecified/res/values/values.xml -->
+    <!-- From: file:/E:/f%20DRIVE/Examples/Uitlsmdots/android/utils/build/intermediates/exploded-aar/android/simplecropimagelib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="cancel">Cancel</string>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/f%20DRIVE/Examples/Uitlsmdots/android/utils/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/android/simplecropimagelib/unspecified/res/values/values.xml -->
+    <!-- From: file:/E:/f%20DRIVE/Examples/Uitlsmdots/android/utils/build/intermediates/exploded-aar/android/simplecropimagelib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="no_storage_card">No storage card</string>
     <string name="not_enough_space">Not enough space</string>
     <string name="preparing_card">Preparing card</string>
     <string name="save">Save</string>
     <string name="saving_image">Saving image</string>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/f%20DRIVE/Examples/Uitlsmdots/android/utils/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_address_on_map">AddressOnMapActivity</string>
     <string name="title_activity_arraylist_to_string">ArraylistToString</string>
@@ -970,7 +970,7 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/android/simplecropimagelib/unspecified/res/values/values.xml -->
+    <!-- From: file:/E:/f%20DRIVE/Examples/Uitlsmdots/android/utils/build/intermediates/exploded-aar/android/simplecropimagelib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="CropButton">
         <item name="android:layout_margin">1dp</item>
@@ -982,7 +982,7 @@
         <item name="android:layout_weight">1</item>
         <item name="android:background">@drawable/selector_crop_button</item>
     </style>
-    <!-- From: file:/F:/Workspace/CommonSDK/Multidots/android/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/E:/f%20DRIVE/Examples/Uitlsmdots/android/utils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>

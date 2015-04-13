@@ -9,13 +9,6 @@
         <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\classes-db2d6e1faa72b3d355b643528a23fc0bcb9ee3e0.jar" />
     </item>
     <item
-        jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\libs\linkedin-j-android-1.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="13bae5a8934c403ab39853974dd6e798d2217ae7">
-        <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\linkedin-j-android-1.0-c7327f4c4d0d3e4a81516adeb7b24cd509368b84.jar" />
-    </item>
-    <item
         jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\libs\signpost-core-1.2.1.1.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -23,18 +16,11 @@
         <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.1-d60dcd62d50acda1a95cb29604a1517275fd8ad2.jar" />
     </item>
     <item
-        jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\libs\socialauth-4.4.jar"
+        jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\libs\signpost-commonshttp4-1.2.1.1.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="a867292683d6086af72c7cac181892e118058989">
-        <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\socialauth-4.4-f03b79d1e5d6cdee81c56d869617cc32af7fff2e.jar" />
-    </item>
-    <item
-        jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\libs\scribe-1.3.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="8a9f92023995a881e97622f82a2dd36d23dda06c">
-        <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\scribe-1.3.0-f339bd43a9e51fe9250cd2d422d32ebb00530631.jar" />
+        sha1="1e6380adcb5808bfe13a934a2f35bfeed1adbc49">
+        <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\signpost-commonshttp4-1.2.1.1-04a693c0968285db67eda163457fdaaa0bb7dda3.jar" />
     </item>
     <item
         jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
@@ -44,11 +30,25 @@
         <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-597b43d06e6060231c1784c201da41f862be712d.jar" />
     </item>
     <item
-        jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\libs\signpost-commonshttp4-1.2.1.1.jar"
+        jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\libs\socialauth-4.4.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="1e6380adcb5808bfe13a934a2f35bfeed1adbc49">
-        <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\signpost-commonshttp4-1.2.1.1-04a693c0968285db67eda163457fdaaa0bb7dda3.jar" />
+        sha1="a867292683d6086af72c7cac181892e118058989">
+        <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\socialauth-4.4-f03b79d1e5d6cdee81c56d869617cc32af7fff2e.jar" />
+    </item>
+    <item
+        jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\exploded-aar\android\simplecropimagelib\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6bb78968858a632e9b83d55e232452db5cf0ae13">
+        <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\classes-d308af28f46f3200252cf4cd22830648bc6f8ebe.jar" />
+    </item>
+    <item
+        jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\libs\linkedin-j-android-1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="13bae5a8934c403ab39853974dd6e798d2217ae7">
+        <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\linkedin-j-android-1.0-c7327f4c4d0d3e4a81516adeb7b24cd509368b84.jar" />
     </item>
     <item
         jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
@@ -63,6 +63,13 @@
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
         <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-7eb92f9cf8447725c65a5a838778a0824c4bc145.jar" />
+    </item>
+    <item
+        jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\libs\scribe-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8a9f92023995a881e97622f82a2dd36d23dda06c">
+        <dex dex="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\scribe-1.3.0-f339bd43a9e51fe9250cd2d422d32ebb00530631.jar" />
     </item>
     <item
         jar="E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"

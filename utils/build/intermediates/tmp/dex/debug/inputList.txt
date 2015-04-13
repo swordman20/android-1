@@ -4,6 +4,7 @@ E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug
 E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\classes-db2d6e1faa72b3d355b643528a23fc0bcb9ee3e0.jar
 E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.1-d60dcd62d50acda1a95cb29604a1517275fd8ad2.jar
 E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\scribe-1.3.0-f339bd43a9e51fe9250cd2d422d32ebb00530631.jar
+E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\classes-d308af28f46f3200252cf4cd22830648bc6f8ebe.jar
 E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-597b43d06e6060231c1784c201da41f862be712d.jar
 E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\socialauth-4.4-f03b79d1e5d6cdee81c56d869617cc32af7fff2e.jar
 E:\f DRIVE\Examples\Uitlsmdots\android\utils\build\intermediates\pre-dexed\debug\linkedin-j-android-1.0-c7327f4c4d0d3e4a81516adeb7b24cd509368b84.jar
