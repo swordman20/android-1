@@ -112,7 +112,7 @@ public class MainActivity extends Activity {
                 "Contacts with email id & screenshot",/* 44 */
                 "Social integration",/* 45 */
                 "Pick color",/* 46 */
-                "Remote file size or download file"/* 46 */
+                "Remote file size or download file"/* 47 */
         };
 
         sdkFunctionalityList = (ListView) findViewById(R.id.Md_list_company);

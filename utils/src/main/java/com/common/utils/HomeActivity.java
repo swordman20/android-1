@@ -5,15 +5,16 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 public class HomeActivity extends Activity {
 
     Context mContext;
     Activity mActivity;
     ListView sdkFunctionalityList;
-    Button btnDemo, btnCodeSnip;
+    TextView txtDemo, txtCodeSnip;
+    private TextView txtMaterialLibrary;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,25 +23,30 @@ public class HomeActivity extends Activity {
         mContext = HomeActivity.this;
         mActivity = HomeActivity.this;
 
-        btnDemo = (Button) findViewById(R.id.btnDemo);
-        btnCodeSnip = (Button) findViewById(R.id.btnCodeSnip);
+        txtDemo = (TextView) findViewById(R.id.txtDemo);
+        txtCodeSnip = (TextView) findViewById(R.id.txtCodeSnip);
+        txtMaterialLibrary = (TextView) findViewById(R.id.txtMaterialLibrary);
 
-        btnDemo.setOnClickListener(new View.OnClickListener() {
+        txtDemo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent intdemo = new Intent(mContext, MainActivity.class);
                 startActivity(intdemo);
-
             }
         });
 
-
-        btnCodeSnip.setOnClickListener(new View.OnClickListener() {
+        txtCodeSnip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent intcode = new Intent(mContext, CodeSnippestHomeActivity.class);
+                startActivity(intcode);
+            }
+        });
+
+        txtMaterialLibrary.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intcode = new Intent(mContext, MaterialLibrariesListActivity.class);
                 startActivity(intcode);
             }
         });
