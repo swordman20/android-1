@@ -195,6 +195,7 @@
         <activity
             android:name="com.common.example.DownloadActivity"
             android:label="@string/title_activity_download" />
+        <activity android:name="com.common.utils.MaterialLibrariesListActivity" />
         <activity android:name="eu.janmuller.android.simplecropimage.CropImage" />
 
         <provider

@@ -53,6 +53,7 @@ import android.provider.ContactsContract;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.service.textservice.SpellCheckerService.Session;
+import android.support.v4.graphics.drawable.DrawableCompat;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Base64;
@@ -1951,7 +1952,16 @@ public class Common {
         intent.putExtra(CropImage.ASPECT_X, aspectX);
         intent.putExtra(CropImage.ASPECT_Y, aspectY);
 
-        ((Activity)context).startActivityForResult(intent, requestCode);
+        ((Activity) context).startActivityForResult(intent, requestCode);
+    }
+
+    /**
+     * Change drawable color
+     */
+    public static Drawable changeDrawableColor(Drawable mDrawable, int color) {
+        Drawable wrappedDrawable = DrawableCompat.wrap(mDrawable);
+        DrawableCompat.setTint(wrappedDrawable, color);
+        return wrappedDrawable;
     }
 }
 
