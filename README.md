@@ -1,4 +1,5 @@
 # CommonSDK
+**常见的Android开发工具类库，以减少实现Android应用程序常见功能的开发。如检查网络的可用性，shared preferences使用、解析等Android开发者可能经常会碰到的功能。具体如下：**
 This Project contains Library of commonly used methods and it's examples.
 
 Library contains easy way to implement social sdk i.e : Facebook, Twitter, Google+, LinkedIn.
